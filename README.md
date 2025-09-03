@@ -68,6 +68,12 @@ $ npm install -g @nestjs/mau
 $ mau deploy
 ```
 
+## Nats
+
+```bash
+docker run -d --name nats-main -p 4222:4222 -p 6222:6222 -p 8222:8222 nats
+```
+
 With Mau, you can deploy your application in just a few clicks, allowing you to focus on building features rather than managing infrastructure.
 
 ## Resources
